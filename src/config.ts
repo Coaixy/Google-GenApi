@@ -6,7 +6,7 @@ export let PROXY_CODE_SECRET = 'Easy-Reverse-Proxy'; // 代理码密钥
 // 代理
 export let PROXIES: Proxy[] = [
     {
-        domain: "gen-proxy.diviner.fun",
+        domain: "gen-api.diviner.fun",
         url: "https://generativelanguage.googleapis.com",
         enable: true
     }
